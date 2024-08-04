@@ -384,7 +384,7 @@ html {
 
 .sub-heading {
   font-size: 2rem;
-  color: #29a587;
+  color: #c03740;
   text-transform: uppercase;
 }
 
@@ -423,7 +423,7 @@ html {
 }
 
 .skill span:nth-child(2) {
-  color: #29a587;
+  color: #c03740;
 }
 
 .skills-card p {
@@ -446,7 +446,7 @@ html {
 .skills-card-progress::before {
   content: "";
   height: 0.2rem;
-  background-color: #29a587;
+  background-color: #c03740;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -462,17 +462,17 @@ html {
 }
 
 .skills-card:nth-child(1) .skills-card-progress {
-  right: 10%;
+  right: 20%;
 }
 
 .skills-card:nth-child(1) .skills-card-progress::before {
-  width: 33rem;
+  width: 26.5rem;
   right: 2.5rem;
 }
 
 .skills-card:nth-child(1) .skills-card-progress::after {
-  width: 4rem;
-  right: -4.3rem;
+  width: 14.9rem;
+  right: -8.2rem;
 }
 
 .skills-card:nth-child(2) .skills-card-progress {
@@ -494,13 +494,13 @@ html {
 }
 
 .skills-card:nth-child(3) .skills-card-progress::before {
-  width: 29.5rem;
+  width: 25.5rem;
   right: 2.5rem;
 }
 
 .skills-card:nth-child(3) .skills-card-progress::after {
-  width: 7.9rem;
-  right: -8.2rem;
+  width: 12rem;
+  right: -12.2rem;
 }
 
 .skills-card:nth-child(4) .skills-card-progress {
