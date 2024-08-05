@@ -354,34 +354,30 @@
             </div>
           </div>
           <div class="contact-right">
-            <form>
+            <form method="post" id="form">
               <div class="input-groups">
                 <div class="input-group">
                   <label for="name"
                     >Your full name <i class="fa-solid fa-asterisk"></i
                   ></label>
-                  <input type="text" />
+                  <input type="hidden" name="access_key" value="00846ad6-8ae8-4509-9225-a9bb68b78d14">
+                  <input type="text" name="name" required />
                 </div>
                 <div class="input-group">
                   <label for="email"
                     >Your email address <i class="fa-solid fa-asterisk"></i
                   ></label>
-                  <input type="email" />
+                  <input type="email" name="email" required />
                 </div>
-              </div>
-              <div class="input-group">
-                <label for="subject"
-                  >Your subject <i class="fa-solid fa-asterisk"></i
-                ></label>
-                <input type="text" />
               </div>
               <div class="input-group">
                 <label for="message"
                   >Your message <i class="fa-solid fa-asterisk"></i
                 ></label>
-                <textarea></textarea>
+                <textarea name="message"></textarea>
               </div>
-              <button type="button" class="contact-btn">Send Message</button>
+              <button type="submit" class="contact-btn">Send Message</button>
+              <div id="result"></div>
             </form>
           </div>
         </div>
