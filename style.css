@@ -331,7 +331,7 @@ html {
 
 /* End of Landing */
 
-/* Skills */
+/* Testimonials */
 .testimonials {
   width: 100%;
   height: 100vh;
@@ -364,7 +364,7 @@ html {
 }
 
 .testimonials-cards {
-  width: 100%;
+  width: 80%;
   margin: 8rem 0 0 10rem;
   display: flex;
   justify-content: center;
@@ -374,7 +374,7 @@ html {
 .testimonials-card {
   width: 60rem;
   height: 18rem;
-  margin: 3rem 8rem;
+  margin: 6rem 8rem;
   padding: 0 3rem;
   /* background-color: #ccc; */
   position: relative;
@@ -402,9 +402,7 @@ html {
   margin-bottom: 4rem;
 }
 
-
-
-/* End of Skills */
+/* End of Testimonials */
 
 /* Projects */
 .projects {
@@ -859,7 +857,7 @@ textarea {
   }
 
   .section-bg-heading {
-    font-size: 17rem;
+    font-size: 15rem;
   }
 
   .developer-img {
@@ -867,7 +865,12 @@ textarea {
   }
 
   .testimonials-cards {
+    flex-direction: column;
     width: 60rem;
+  }
+
+  .testimonial {
+    flex-direction: column;
   }
 
   .projects-cards {
@@ -899,6 +902,7 @@ textarea {
   }
 
   .testimonials-cards {
+    flex-direction: column;
     width: 55rem;
   }
 
