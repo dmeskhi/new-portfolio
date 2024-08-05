@@ -159,38 +159,6 @@ html {
   display: flex;
 }
 
-/* .section-border {
-  height: 55rem;
-  width: 0.3rem;
-  background-color: #bbb;
-  margin-right: 10rem;
-  position: relative;
-}
-
-.section-border::before {
-  content: "";
-  width: 3rem;
-  height: 3rem;
-  border: 0.2rem solid #bbb;
-  border-radius: 50%;
-  background-color: #1d222a;
-  position: absolute;
-  left: -1.65rem;
-  top: -3rem;
-}
-
-.section-border::after {
-  content: "";
-  width: 3rem;
-  height: 3rem;
-  border: 0.2rem solid #bbb;
-  border-radius: 50%;
-  background-color: #1d222a;
-  position: absolute;
-  left: -1.65rem;
-  bottom: -3rem;
-} */
-
 .developer-info {
   margin-right: 15rem;
 }
@@ -765,10 +733,6 @@ textarea {
     right: -70rem;
   }
 
-  .skills .section-border {
-    left: 10rem;
-  }
-
   .contact .section-border {
     left: 10rem;
   }
@@ -822,17 +786,13 @@ textarea {
     font-size: 23rem;
   }
 
-  .skills {
+  .testimonials {
     height: 100%;
     padding: 10rem 0 20rem 0;
   }
 
-  .skills-cards {
+  .testimonials-cards {
     width: 100rem;
-  }
-
-  .skills .section-border {
-    height: 85rem;
   }
 
   .projects-cards {
@@ -906,7 +866,7 @@ textarea {
     display: none;
   }
 
-  .skills-cards {
+  .testimonials-cards {
     width: 60rem;
   }
 
@@ -938,7 +898,7 @@ textarea {
     text-align: center;
   }
 
-  .skills-cards {
+  .testimonials-cards {
     width: 55rem;
   }
 
