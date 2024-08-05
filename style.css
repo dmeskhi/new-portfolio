@@ -107,26 +107,6 @@ html {
   transition: color 0.5s;
 }
 
-.nav-items span:nth-child(1) {
-  font-size: 3rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  color: #c03740;
-  margin: 1rem 0;
-  transition: color 0.5s;
-}
-
-.nav-items span:nth-child(2) {
-  font-size: 3rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  color: #eee;
-  margin: 1rem 0;
-  transition: color 0.5s;
-}
-
 .nav-items a:hover {
   color: #c03740;
 }
