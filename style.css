@@ -119,6 +119,12 @@ html {
   position: relative;
 }
 
+.landing-projects {
+  width: 10%;
+  height: 10vh;
+  position: relative;
+}
+
 .section-bg-heading {
   position: absolute;
   bottom: 0;
@@ -139,6 +145,7 @@ html {
   font-size: 3rem;
   display: flex;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .logo span:nth-child(1) {
