@@ -730,59 +730,28 @@ textarea {
   color: #c03740;
 }
 /* End of Footer */
-
 /* Pagination */
-.navp {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
+.pagination {
+  text-align: center;
+  margin-bottom: 3rem;
 }
-.btnp {
-  width: 70px;
-  height: 32px;
-  border: none;
-  color: #fff;
-  font-size: 16px;
+
+.pagination a {
+  font-size: 1.8rem;
+  color: #c03740;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  display: inline-block;
 }
-.btnp:hover {
-  cursor: pointer;
-  transform: scale(1.1);
+
+.pagination a.active {
+  background-color: #fff;
+  border-radius: 0.5rem;
 }
-.prev {
-  background: #f08080;
-}
-.next {
-  background: #7b68ee;
-}
-.pages {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 140px;
-  padding: 0 10px;
-  list-style-type: none;
-}
-.paginationBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 30px;
-  background: #e0ffff;
-  border: none;
-  transition: all 0.4s linear;
-}
-.paginationBtn:hover {
-  background: #00ffff;
-  transition: all 0.4s linear;
-  cursor: pointer;
-}
-.active {
-  background: #00ffff;
-  box-shadow: 0 0 10px 0 #00ffff;
-  transition: all 0.4s linear;
+
+.pagination a:hover:not(.active) {
+  background-color: #fff;
+  border-radius: 0.5rem;
 }
 /* End of Pagination */
 /* End of Container */
@@ -861,6 +830,7 @@ textarea {
 
   .projects-cards {
     width: 100rem;
+    z-index: 100;
   }
 
   .contact-content {
