@@ -3,7 +3,6 @@ const container = document.querySelector(".container");
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
-
 menuIcon.addEventListener("click", () => {
   container.classList.toggle("change");
 });
@@ -45,3 +44,6 @@ form.addEventListener('submit', function(e) {
           }, 3000);
       });
 });
+
+
+
