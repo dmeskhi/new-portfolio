@@ -108,7 +108,7 @@ html {
 }
 
 .nav-items a:hover {
-  color: #c03740;
+  color: #D61C4E;
 }
 /* End of Navigation */
 
@@ -156,7 +156,7 @@ html {
   font-size: 5rem;
   font-family: "Caveat", cursive;
   font-weight: bold;
-  color: #c03740;
+  color: #D61C4E;
 }
 
 .banner {
@@ -179,7 +179,7 @@ html {
 }
 
 .greeting span {
-  color: #c03740;
+  color: #D61C4E;
 }
 
 .name {
@@ -191,7 +191,7 @@ html {
 }
 
 .name span {
-  color: #c03740;
+  color: #D61C4E;
 }
 
 .prof {
@@ -251,7 +251,7 @@ html {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #c03740;
+  background-color: #D61C4E;
   border-radius: 3rem;
   position: absolute;
   top: 0;
@@ -333,7 +333,7 @@ html {
 }
 
 .dev-work span:nth-child(2) {
-  color: #c03740;
+  color: #D61C4E;
   width: 50%;
 }
 
@@ -360,7 +360,7 @@ html {
 
 .sub-heading {
   font-size: 2rem;
-  color: #c03740;
+  color: #D61C4E;
   text-transform: uppercase;
 }
 
@@ -400,7 +400,7 @@ html {
 }
 
 .testimonial span:nth-child(2) a {
-  color: #c03740;
+  color: #D61C4E;
 }
 
 .testimonials-card p {
@@ -473,7 +473,7 @@ html {
   font-size: 1.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: #c03740;
+  color: #D61C4E;
   letter-spacing: 0.1rem;
 }
 
@@ -507,7 +507,7 @@ html {
 }
 
 .project-btn i {
-  color: #c03740;
+  color: #D61C4E;
   margin-left: 1rem;
   transition: margin-left 0.3s;
 }
@@ -650,7 +650,7 @@ html {
 
 .input-group label i {
   font-size: 1.2rem;
-  color: #c03740;
+  color: #D61C4E;
 }
 
 .input-group input,
@@ -679,7 +679,7 @@ textarea {
 .contact-btn {
   width: calc(100% - 3rem);
   height: 5rem;
-  background-color: #c03740;
+  background-color: #D61C4E;
   border: 0.2rem solid #bbb;
   border-radius: 3rem;
   color: #fff;
@@ -719,7 +719,7 @@ textarea {
   font-family: "Caveat", cursive;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #c03740;
+  color: #D61C4E;
   margin-right: 1rem;
 }
 
@@ -727,7 +727,7 @@ textarea {
   font-family: "Caveat", cursive;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #c03740;
+  color: #D61C4E;
 }
 /* End of Footer */
 /* Pagination */
@@ -738,7 +738,7 @@ textarea {
 
 .pagination a {
   font-size: 1.8rem;
-  color: #c03740;
+  color: #D61C4E;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   display: inline-block;
