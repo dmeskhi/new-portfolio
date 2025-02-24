@@ -359,7 +359,7 @@ html {
   letter-spacing: 0.2rem;
   color: #fff;
   margin-bottom: 3rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .sub-heading {
@@ -789,7 +789,7 @@ textarea {
   }
 
   .name {
-    font-size: 7rem;
+    font-size: 5rem;
     width: 40rem;
   }
 
