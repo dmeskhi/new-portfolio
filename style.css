@@ -186,9 +186,9 @@ html {
 }
 
 .name {
-  font-size: 10rem;
+  font-size: 8rem;
   width: 60rem;
-  margin: 4rem 0 2rem 0;
+  margin: 4rem 0 4rem 0;
   color: #fff;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
@@ -269,7 +269,7 @@ html {
   transition: transform 0.5s;
 }
 
-.cv-btn::after {
+/* .cv-btn::after {
   content: "";
   width: 5rem;
   height: 0.2rem;
@@ -277,7 +277,7 @@ html {
   position: absolute;
   top: 50%;
   right: -5rem;
-}
+} */
 
 .cv span {
   font-size: 1.4rem;
@@ -359,6 +359,7 @@ html {
   letter-spacing: 0.2rem;
   color: #fff;
   margin-bottom: 3rem;
+  margin-top: 10rem;
 }
 
 .sub-heading {
