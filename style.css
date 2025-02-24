@@ -12,6 +12,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 /* Default Styles */
 
 /* Container */
@@ -111,6 +112,7 @@ html {
 .nav-items a:hover {
   color: #D61C4E;
 }
+
 /* End of Navigation */
 
 /* Landing */
@@ -408,7 +410,7 @@ html {
   font-family: "Caveat", cursive;
   font-size: 2rem;
   color: #bbb;
-  margin-bottom: 4rem;
+
 }
 
 /* End of Testimonials */
@@ -531,6 +533,7 @@ html {
   transform: translateY(-50%);
   margin: 0;
 }
+
 /* End of Projects */
 
 /* Contact */
@@ -690,6 +693,7 @@ textarea {
   letter-spacing: 0.2rem;
   cursor: pointer;
 }
+
 /* End of Contact */
 
 /* Footer */
@@ -730,6 +734,7 @@ textarea {
   font-weight: bold;
   color: #D61C4E;
 }
+
 /* End of Footer */
 /* Pagination */
 .pagination {
@@ -754,6 +759,7 @@ textarea {
   background-color: #fff;
   border-radius: 0.5rem;
 }
+
 /* End of Pagination */
 /* End of Container */
 
@@ -941,6 +947,7 @@ textarea {
   .testimonials-cards {
     flex-direction: column;
     width: 55rem;
+    margin: 20rem;
   }
 
   .contact-content {
@@ -955,4 +962,5 @@ textarea {
     display: none;
   }
 }
+
 /* End of Responsive */
