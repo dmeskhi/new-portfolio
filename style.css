@@ -269,16 +269,6 @@ html {
   transition: transform 0.5s;
 }
 
-/* .cv-btn::after {
-  content: "";
-  width: 5rem;
-  height: 0.2rem;
-  background-color: #bbb;
-  position: absolute;
-  top: 50%;
-  right: -5rem;
-} */
-
 .cv span {
   font-size: 1.4rem;
   font-weight: 300;
