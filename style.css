@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: "Rowdies", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -136,7 +136,7 @@ html {
   width: 100%;
   text-align: center;
   font-size: 30rem;
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   color: #31363d;
   opacity: 0.5;
 }
@@ -157,9 +157,13 @@ html {
 
 .logo span:nth-child(2) {
   font-size: 5rem;
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #D61C4E;
+}
+
+.logo span:nth-child(3) {
+  color: #fff;
 }
 
 .banner {
@@ -175,7 +179,7 @@ html {
 }
 
 .greeting {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.1rem;
@@ -187,8 +191,9 @@ html {
 
 .name {
   font-size: 8rem;
-  width: 60rem;
-  margin: 4rem 0 4rem 0;
+  font-weight: 700;
+  width: 70rem;
+  margin: 2rem 0 2rem 0;
   color: #fff;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
@@ -207,7 +212,7 @@ html {
 }
 
 .prof span {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   text-transform: capitalize;
@@ -215,10 +220,11 @@ html {
 }
 
 .about {
-  width: 60rem;
-  font-family: "Caveat", cursive;
-  font-size: 2.5rem;
-  line-height: 1;
+  width: 65rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.3;
+  letter-spacing: 0.1rem;
   color: #a9abae;
   margin-bottom: 5rem;
 }
@@ -243,7 +249,7 @@ html {
   background-color: transparent;
   color: #fff;
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
@@ -297,6 +303,7 @@ html {
   height: 9rem;
   background-color: #1d222a;
   font-size: 1.4rem;
+  font-weight: 700;
   text-transform: uppercase;
   color: #fff;
   border: 0.2rem solid #bbb;
@@ -359,8 +366,9 @@ html {
 }
 
 .sub-heading span {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 3.5rem;
+  font-style: italic;
   text-transform: capitalize;
   color: #fff;
 }
@@ -398,8 +406,9 @@ html {
 }
 
 .testimonials-card p {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
+  line-height: 1.5;
   color: #bbb;
 
 }
@@ -465,22 +474,23 @@ html {
 
 .techs span {
   font-size: 1.6rem;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   color: #D61C4E;
   letter-spacing: 0.1rem;
 }
 
 .project-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 300;
   color: #fff;
   margin-top: -2rem;
 }
 
 .project-desc {
-  font-family: "Caveat", cursive;
-  font-size: 2.2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
   color: #ccc;
 }
 
@@ -598,8 +608,8 @@ html {
 }
 
 .contact-info span:nth-child(1) {
-  font-family: "Caveat", cursive;
-  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #fff;
   margin-bottom: 0.5rem;
@@ -712,16 +722,16 @@ textarea {
 }
 
 .copyright span {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #D61C4E;
-  margin-right: 1rem;
+
 }
 
 .author span a {
-  font-family: "Caveat", cursive;
-  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
   font-weight: bold;
   color: #D61C4E;
 }
